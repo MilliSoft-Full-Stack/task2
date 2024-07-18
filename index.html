@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+<!-- Page 1 -->
+
+    <h1>My feedback form</h1>
+    <ul>
+        <li>Name: <input type="text"></li>
+        <li>Email: <input type="text"></li>
+        <li>Password: <input type="text"></li>
+    </ul>
+
+    <ul>
+        <li>Please check all the conditions that apply to you:
+            
+            <ul type="disc">
+                <li><label for="a1">Angry</label><input type="checkbox" id="a1"></li>
+                <li><label for="a2">Sad</label><input type="checkbox" id="a2"></li>
+                <li><label for="a3">Happy</label><input type="checkbox" id="a3"></li>
+                <li><label for="a4">Ambivalent</label><input type="checkbox" id="a4"></li>
+            </ul>
+
+        </li>
+    </ul>
+
+    <ul>
+        <li>How satisfied were you with our servise?
+            <ul type="disc">
+                <form action="">
+                <li><label for="1">Very satisfied</label><input type="radio" name="aaa" id="1"></li>
+                <li><label for="2">Satisfied</label><input type="radio" name="aaa" id="2"></li>
+                <li><label for="3">Didn't care</label><input type="radio" name="aaa" id="3"></li>
+                <li><label for="4">Dissatisfied</label><input type="radio" name="aaa" id="4"></li>
+                <li><label for="5">Very dissatisfied</label><input type="radio" name="aaa" id="5"></li>
+                </form>
+            </ul>
+        </li>
+    </ul>
+
+    <ul><li>Further comments: <textarea></textarea>
+    </li></ul>
+
+    <ul><li>Bio photo: <input type="text"><input type="file" value="choose"></li></ul>
+
+    <ul><li>     
+        <form>
+        <label for="city">Location visited:</label>
+        <select id="city" name="city">
+            <option value="" disabled selected>Select Location</option>
+            <option>Paris</option>
+            <option>London</option>
+            <option>New York</option>
+            <option>Tokyo</option>
+        </select><br>
+        </form>
+    </li></ul>
+
+    <ul><li><input type="submit"></li></ul>
+
+
+    <br> <hr> <br>
+
+    <fieldset>
+        <legend>Personal Details</legend>
+
+        Salutation <br>
+        <select name="" id="">
+            <option value="Mr" selected disabled> --None-- </option>
+            <option value="Mr" >Mr</option>
+            <option value="Mrs">Mrs</option>
+            <option value="Miss">Miss</option>
+        </select>
+
+        <br><br>
+
+        first name: <input type="text">
+
+        <br><br>
+
+        last name: <input type="text">
+
+        <br><br>
+
+        
+        <form action="">Gender:
+           
+            <input type="radio" name="gender" id="Male">
+            <label for="Male">Male</label>
+
+            <input type="radio" name="gender" id="Female">
+            <label for="Female">Female</label>
+        </form>
+
+        <br><br>
+
+        Email: <input type="email" name="" id="">
+
+        <br><br>
+
+        Date of B: <input type="date" name="" id="">
+
+        <br><br>
+
+        Adress: <br>
+        <textarea name="" id=""></textarea>
+
+        <br><br>
+
+        <input type="submit">
+
+    </fieldset>
+
+<!-- / Page 1 -->
+
+    <br> <hr> <br>
+
+<!-- ================================================================== -->
+
+
+
+<!-- Page 2 -->
+
+
+    <fieldset>
+        <legend>Login</legend>
+        Username* <br>
+        <input type="text" name="" id="">
+        <br>
+        Password* <br>
+        <input type="password" name="" id="">
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Gender*</legend>
+        <form action="">
+            <input type="radio" name="gender" id="male2"> <label for="male2">Male</label>
+            <input type="radio" name="gender" id="female2"> <label for="female2">Female</label>
+        </form>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Prog skill</legend>
+        <form action="">
+        <input type="checkbox" id="11"> <label for="11">Java</label>  <input type="checkbox" id="22"> <label for="22">C++</label>  <input type="checkbox" id="33"> <label for="33">C#</label>
+        </form>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Fruit</legend>
+        choose: <select name="" id="">
+            <option value="">banana</option>
+            <option value="">kljgrt</option>
+            <option value="">skljgk</option>
+        </select>
+    </fieldset>
+
+    <textarea name="" id="" placeholder="enter your" cols="50%" rows="5"></textarea>
+
+    <br>
+
+    <input type="submit"> <input type="submit" value="reset" name="" id="">
+
+<!-- / Page 2 -->
+
+<br> <hr> <br>
+
+<!-- ================================================================== -->
+
+
+
+<!-- Page 3 -->
+
+
+<h3>Complex form</h3>
+
+<fieldset>
+    <legend>Personal inf</legend>
+    Name: <input type="text" name="" id="">
+    <br><br>
+    Email: <input type="email" name="" id="">
+    <br><br>
+    Phone: <input type="tel" name="" id="">
+    <br><br>
+    Date of B: <input type="date" name="" id="">
+    <br><br>
+     <form action="">Gender
+        <input type="radio" name="gender" id="male3"> <label for="male3">Male</label>
+        <input type="radio" name="gender" id="female3"> <label for="female3">Female</label>
+    </form>
+    <br><br>
+    Country <select name="" id="">
+        <option value="1">India</option>
+        <option value="2">Canada</option>
+        <option value="3">UK</option>
+        <option value="4">France</option>
+    </select>
+</fieldset>
+
+<br>
+
+<fieldset>
+    <legend>Address</legend>
+
+    Street <input type="text" name="" id="">
+    <br><br>
+    City <input type="text" name="" id="">
+    <br><br>
+    State <input type="text" name="" id="">
+    <br><br>
+    Zip <input type="text" name="" id="">
+</fieldset>
+
+<br>
+
+<fieldset>
+    <legend>Other inf</legend>
+    comments <textarea name="" id=""></textarea> <label for="sjsj">I agree</label><input type="checkbox" name="" id="sjsj">
+</fieldset>
+
+<br>
+<button>Submit</button>
+
+
+
+
+
+<br><br>
+<br><br>
+<br><br>
+
+
+
+<table border="1" >
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+
+        <tr>
+            <td>Name</td>
+            <td><input type="text" value="Nazli"></td>
+        </tr>
+
+        <tr>
+            <td>Sex</td>
+            <td>
+                <form action="">
+                <input type="radio" name="aaa" id="male4"><label for="male4">Male</label>
+                <br>
+                <input type="radio" name="aaa" id="female4"><label for="female4">Female</label>
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Eye color</td>
+            <td> <form>
+                
+                <select >
+                    <option >Green</option>
+                    <option>Blue</option>
+                </select>
+        
+                
+            </form></td>
+            </tr>
+
+            <tr>
+                <td>Check all that apply</td>
+                <td>
+                    <input type="checkbox" id="over6"><label for="over6">Over 6 feet tall</label>
+                    <br>
+                    <input type="checkbox" id="over200"><label for="over200">Over 200 pounds</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Describe your athletic ability: 
+                    <br>
+                    <textarea name="" id="" cols="40%" rows="4"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="2"><input type="submit" value="Send all information"></th>
+            </tr>
+
+    </thead>
+
+    <tbody>
+
+    </tbody>
+</table>
+
+
+<!-- / Page 3 -->
+
+<br> <hr> <br>
+
+<!-- ================================================================== -->
+
+
+
+<!-- Page 4 -->
+
+    <video src="/static/videos/cats.mp4" controlsList="nodownload nofullscreen" muted controls autoplay loop width="40%"></video>
+
+<br>
+
+   
+
+<iframe width="750" height="480" src="https://www.youtube.com/embed/-yOUO-4qrs0?list=PLibKyvjmN6vzMDYJA-Lr1en5qDuASQI-O" title="HTML - 1 ( teqler, list, table)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br> <hr> <br>
+
+<!-- / Page 4 -->
+
+<!-- ================================================================== -->
+
+
+
+
+
+
+
+
+</body>
+</html>
